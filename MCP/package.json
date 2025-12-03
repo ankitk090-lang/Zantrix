@@ -1,0 +1,32 @@
+{
+  "name": "zantrix",
+  "version": "1.0.0",
+  "description": "Zantrix - A powerful Model Context Protocol (MCP) server for cybersecurity diagnostics and network analysis.",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "mcp",
+    "cybersecurity",
+    "network",
+    "diagnostics",
+    "security",
+    "tools",
+    "zantrix"
+  ],
+  "author": "Ankit Kumar",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.23.0",
+    "@types/axios": "^0.9.36",
+    "@types/node": "^24.10.1",
+    "axios": "^1.13.2",
+    "typescript": "^5.9.3",
+    "whois": "^2.16.1",
+    "zod": "^4.1.13"
+  }
+}
